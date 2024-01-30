@@ -24,7 +24,7 @@ export const counterSlice = createSlice({
 });
 
 // thunk funcrion
-export const incrementAsyc = (amount) => {
+export const incrementAsync = (amount) => {
     return (dispatch) => {
         setTimeout(()=>{
             dispatch(incrementByAmount(amount))
